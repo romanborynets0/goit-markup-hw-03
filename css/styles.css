@@ -181,9 +181,10 @@ img{
   width: calc((100% - 48px) / 3); 
 }
 
-
+/** -------------OUR-TEAM-------------- */
 .our-team {
   background-color: var(--color-white-bg);
+  padding: 120px 0;
 }
 
 .our-team-titel {
@@ -193,25 +194,42 @@ img{
   text-transform: capitalize;
   text-align: center;
   color: var(--color-hero-fotter);
+  margin-bottom: 72px;
 }
 
+.our-team-list{
+  display: flex;
+  gap: 24px;
+}
 .our-team-subtitel {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-hero-fotter);
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .our-team-item {
   background-color: var(--color-white);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px; 
 }
 .our-team-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-gray);
+  text-align: center;
 }
+.our-team-block{
+  padding: 32px 16px;
+
+}
+
+
+
 .footer {
   background: var(--color-hero-fotter);
 }
