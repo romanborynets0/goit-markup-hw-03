@@ -228,10 +228,11 @@ img{
 
 }
 
-
+/** ------------footer----------------- */
 
 .footer {
   background: var(--color-hero-fotter);
+  padding: 100px 0;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -241,6 +242,8 @@ img{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color:var(--color-main-btn);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo span {
   color: var(--color-white-bg);
@@ -251,6 +254,7 @@ img{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-white-bg);
+  min-width: 264px;
 }
 .row-btn-list {
   text-decoration: none;
