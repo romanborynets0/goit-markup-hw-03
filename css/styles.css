@@ -26,6 +26,7 @@ img{
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  align-items: center;
 }
 .header{
   border-bottom: 1px solid #e7e9fc;
@@ -99,6 +100,7 @@ img{
 /* *---------------HERO--------------- */
 .hero {
   background-color: var(--color-hero-fotter);
+   padding: 188px 0;
 }
 .hero-titel {
   font-size: 56px;
@@ -106,6 +108,7 @@ img{
   letter-spacing: 0.02em;
   color: var(--color-white);
   text-align: center;
+  max-width: 496px;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -116,6 +119,11 @@ img{
   color: var(--color-white);
   background-color: var(--color-main-btn);
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .hero-btn:hover {
   background-color: var(--color-btn);
