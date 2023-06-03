@@ -6,7 +6,7 @@
   --color-gray:#434455;
   --color-white-bg:#f4f4fd;
 }
-
+@import 'node_modules/modern-normalize/modern-normalize.css';
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-gray);
@@ -21,9 +21,14 @@ ul {
 img{
   display: block;
 }
-
+.container{
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .header{
-  border-bottom: 1px solid #;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo {
@@ -34,12 +39,23 @@ img{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-main-btn);
+  margin-right: 76px;
+  display: flex;
+  align-items: center;
 }
 .header-logo span {
   color: var(--color-hero-fotter);
 }
+.header-navigation{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+}
 .list {
   list-style: none;
+  display: flex;
+  gap: 40px;
 }
 .header-menu-link {
   font-weight: 500;
@@ -47,6 +63,7 @@ img{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-hero-fotter);
+  display: flex;
 }
 .header-menu-link link {
   color: var(--color-hero-fotter);
