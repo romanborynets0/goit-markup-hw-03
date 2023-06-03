@@ -1,0 +1,209 @@
+:root {
+  --color-main-btn: #4d5ae5;
+  --color-btn: #404bbf;
+  --color-hero-fotter: #2e2f42;
+  --color-white: #ffffff;
+  --color-gray:#434455;
+  --color-white-bg:#f4f4fd;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-gray);
+  background-color: var(--color-white);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-main-btn);
+}
+.header-logo span {
+  color: var(--color-hero-fotter);
+}
+.list {
+  list-style: none;
+}
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-hero-fotter);
+}
+.header-menu-link link {
+  color: var(--color-hero-fotter);
+  text-decoration: none;
+}
+.header-menu-link:hover {
+  color: var(--color-btn);
+}
+.header-menu-link:focus {
+  color: var(--color-btn);
+}
+.contact {
+  font-style: normal;
+}
+.contact-menu-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.contact-menu-link {
+  color: var(--color-gray);
+}
+.contact-menu-link:hover {
+  color: var(--color-btn);
+}
+.contact-menu-link:focus {
+  color: var(--color-btn);
+}
+.hero {
+  background-color: var(--color-hero-fotter);
+}
+.hero-titel {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  text-align: center;
+}
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  background-color: var(--color-main-btn);
+  cursor: pointer;
+}
+.hero-btn:hover {
+  background-color: var(--color-btn);
+}
+.hero-btn:focus {
+  background-color: var(--color-btn);
+}
+
+.advantages-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-gray);
+}
+.advantages-subtitel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-hero-fotter);
+}
+
+.we-doing-titel {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-hero-fotter);
+}
+
+.our-team {
+  background-color: var(--color-white-bg);
+}
+
+.our-team-titel {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--color-hero-fotter);
+}
+
+.our-team-subtitel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-hero-fotter);
+}
+
+.our-team-item {
+  background-color: var(--color-white);
+}
+.our-team-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-gray);
+}
+.footer {
+  background: var(--color-hero-fotter);
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color:var(--color-main-btn);
+}
+.footer-logo span {
+  color: var(--color-white-bg);
+}
+.footer-text {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-white-bg);
+}
+.row-btn-list {
+  text-decoration: none;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-main-btn);
+  background-color: var(--color-white-bg);
+  cursor: pointer;
+}
+.btn:hover {
+  color: var(--color-white);
+  background-color: var(--color-btn);
+}
+.btn:focus {
+  color: var(--color-white);
+  background-color: var(--color-btn);
+}
+
+.row-subtitel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-hero-fotter);
+}
+.row-text {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-gray);
+}
