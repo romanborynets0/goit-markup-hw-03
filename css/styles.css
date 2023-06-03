@@ -6,7 +6,7 @@
   --color-gray:#434455;
   --color-white-bg:#f4f4fd;
 }
-@import 'node_modules/modern-normalize/modern-normalize.css';
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-gray);
@@ -21,6 +21,11 @@ ul {
 img{
   display: block;
 }
+
+.header{
+  border-bottom: 1px solid #;
+}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
