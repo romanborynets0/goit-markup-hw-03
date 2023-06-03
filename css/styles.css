@@ -131,13 +131,25 @@ img{
 .hero-btn:focus {
   background-color: var(--color-btn);
 }
+/** ----------Advantages--------------- */
+.advantages{
+  padding: 120px 0;
+}
 
+.advantages-titel{
+  @include visually-hidden;
+}
+.advantages-list{
+  display: flex;
+  gap: 24px;
+}
 .advantages-item {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-gray);
+  width: calc((100%-72)/4);
 }
 .advantages-subtitel {
   font-weight: 500;
@@ -145,6 +157,7 @@ img{
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-hero-fotter);
+  margin-bottom: 8px;
 }
 
 .we-doing-titel {
