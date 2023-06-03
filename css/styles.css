@@ -256,8 +256,19 @@ img{
   color: var(--color-white-bg);
   min-width: 264px;
 }
+
+/**--------------PORTFOLIO------------- */
+
+.section{
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .row-btn-list {
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .btn {
@@ -269,14 +280,19 @@ img{
   color: var(--color-main-btn);
   background-color: var(--color-white-bg);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px; 
 }
 .btn:hover {
   color: var(--color-white);
   background-color: var(--color-btn);
+  border: 1px solid transparent;
 }
 .btn:focus {
   color: var(--color-white);
   background-color: var(--color-btn);
+  border: 1px solid transparent;
 }
 
 .row-subtitel {
