@@ -102,7 +102,7 @@ img{
 }
 /* *---------------HERO--------------- */
 .hero-container{
-  display: flex;
+  
 }
 .hero {
   background-color: var(--color-hero-fotter);
