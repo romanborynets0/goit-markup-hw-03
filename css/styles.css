@@ -290,9 +290,6 @@ img{
   margin-bottom: 72px;
   
 }
-.row-item{
-  
-}
 .btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -317,12 +314,28 @@ img{
   border: 1px solid transparent;
 }
 
+/** ---------------LIST---------------- */
+.row-list{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.row-item{
+  
+}
+.row-item-name{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .row-subtitel {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-hero-fotter);
+  margin-bottom: 8px;
 }
 .row-text {
   font-family: "Roboto";
