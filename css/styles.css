@@ -96,9 +96,13 @@ img{
 .contact-menu-link:focus {
   color: var(--color-btn);
 }
+.container-header{
+  display: flex;
+  align-items: center;
+}
 /* *---------------HERO--------------- */
 .hero-container{
-
+  display: flex;
 }
 .hero {
   background-color: var(--color-hero-fotter);
