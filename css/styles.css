@@ -38,6 +38,14 @@ img{
   clip: rect(0 0 0 0);
   overflow: hidden; 
 }
+.list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding-left: 0;
+}
+/** -------------HEADER--------------- */
 .header{
   border-bottom: 1px solid #e7e9fc;
 }
@@ -63,13 +71,7 @@ img{
   flex-grow: 1;
   justify-content: space-between;
 }
-.list {
-  list-style: none;
-  display: flex;
-  gap: 40px;
-  margin: 0;
-  padding-left: 0;
-}
+
 .header-menu-link {
   font-weight: 500;
   font-size: 16px;
@@ -92,6 +94,7 @@ img{
 
 .contact {
   font-style: normal;
+  margin-left: auto;
 }
 .contact-menu-item {
   font-weight: 400;
