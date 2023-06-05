@@ -6,7 +6,7 @@
   --color-gray:#434455;
   --color-white-bg:#f4f4fd;
 }
-@import 'node_modules/modern-normalize/modern-normalize.css';
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-gray);
@@ -22,11 +22,10 @@ img{
   display: block;
 }
 .container{
-  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  align-items: center;
+
 }
 .header{
   border-bottom: 1px solid #e7e9fc;
